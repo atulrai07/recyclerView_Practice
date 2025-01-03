@@ -15,9 +15,9 @@ This project demonstrates the use of Android's RecyclerView for displaying a dyn
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/f7aba9dc-d8b0-4f9e-b673-a5c74a067a74)
-Main Screen
+# Main Screen
 ![image](https://github.com/user-attachments/assets/88261e23-7e26-4c5a-8399-6aa311b21c5f)
-Dialog Box
+# Dialog Box
 
 
 ## Installation
