@@ -25,7 +25,7 @@ This project demonstrates the use of Android's RecyclerView for displaying a dyn
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/recyclerview-practice.git
+    https://github.com/atulrai07/recyclerView_Practice.git
     ```
 
 2. Open the project in Android Studio.
