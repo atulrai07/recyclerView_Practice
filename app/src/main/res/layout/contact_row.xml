@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="7dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:id="@+id/llrow"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/baseline_assignment_ind_24"
+            android:id="@+id/imgContact"
+            android:background="#FFFFFF"
+            android:contentDescription="Contact Image"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:orientation="vertical">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:id="@+id/txtName"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Number"
+                    android:textSize="14sp"
+                    android:id="@+id/txtNumber"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:text="edit"
+                    android:textColor="#ffff"
+                    android:backgroundTint="#3949AB"
+                    android:textSize="10dp"
+                    android:id="@+id/btnUpdate"/>
+            </RelativeLayout>
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
